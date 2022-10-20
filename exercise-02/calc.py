@@ -3,7 +3,7 @@ def rechnen():
     num1 = int(input())
     print("Enter number 2: ")
     num2 = int(input())
-    print("Which kind of mafs operation do you wanna use?")
+    print("Which kind of mafs operation do you wanna use? [sum / product]")
     op = str(input())
 
     if op == "sum"or op =="add" or op =="+":
@@ -15,7 +15,7 @@ def rechnen():
     else:
         print("Error bibabibup")
 
-    print("Wanna do it again ?")
+    print("Wanna do it again [yes,no]?")
 
     lw = input().lower()
     
