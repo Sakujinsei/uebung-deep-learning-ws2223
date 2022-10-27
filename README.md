@@ -21,6 +21,6 @@
 ### 27.10.2022
 
 - Python - List Comprehension, Functions, I/O
-- Exercise 3: List Comprehension, Functions
+- Exercise 3: List Comprehension, Functions 
 
 
