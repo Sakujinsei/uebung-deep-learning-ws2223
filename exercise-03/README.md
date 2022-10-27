@@ -30,5 +30,3 @@ If you haven't figured it out by now: These functions don't make sense, they are
 
 ## Step 4: Commit
 Commit your changes to your local repository and push them to the server.
-
-Obligatory change so github will take this to my branch
