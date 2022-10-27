@@ -13,5 +13,5 @@ print(c)
 d = [z for z in y]
 print(d)
 
-e = [z*[bool(z)] for z in b]
+e = [z*[bool(z)] for z in x]
 print(e)
