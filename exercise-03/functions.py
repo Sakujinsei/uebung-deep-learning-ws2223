@@ -14,3 +14,18 @@ func1("Welt", "Hallo")
 func1(None, None)
 func1(11, "Freunde")
 func1(5.4, 3.6)
+
+def func2(*args):
+  NumberOfArguments = len(args)
+    if NumberOfArguments < 2:
+        return "The Number of Arguments is " + NumberOfArguments
+    if NumberOfArguments == 2:
+        return func1(args[0], args[1])
+    if NumberOfArguments > 2:
+        return NumberOfArguments
+        
+def func3(**kwargs):
+    if (kwargs == "a" and kwargs == "b"):
+      return func1(**kwargs)
+    else:
+      return func2(**kwargs)
