@@ -14,3 +14,19 @@ func1("Welt", "Hallo")
 func1(None, None)
 func1(11, "Freunde")
 func1(5.4, 3.6)
+
+def func2(*args):
+    numArgs = len(args)
+    if numArgs < 2:
+        return str(numArgs)
+    if numArgs == 2:
+        return func1(*args)
+    if numArgs > 2:
+        return int(numArgs)
+        
+def func3(**kwargs):
+    for key in kwargs:
+        if key == "a" and key == "b":
+            return func1("a","b")
+        else:
+            return func2(kwargs[key])
