@@ -28,5 +28,3 @@ def func3(**kwargs):
     return func1(kwargs["a"],kwargs["b"])
   else:
     return func2(kwargs)
-
-func3(a=2,b=3)
